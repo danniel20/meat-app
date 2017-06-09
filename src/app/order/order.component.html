@@ -51,8 +51,8 @@
           </div>
           
           <mt-order-items [items]="cartItems()"
-                         (increase)="increaseQty($event)"
-                         (decrease)="decreaseQty($event)"
+                         (increaseQty)="increaseQty($event)"
+                         (decreaseQty)="decreaseQty($event)"
                          (remove)="remove($event)">                                         
           </mt-order-items>
 
